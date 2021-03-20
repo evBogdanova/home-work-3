@@ -41,5 +41,4 @@ public class ExampleJUnitTest {
         $(".wiki-rightbar").find(byText("SoftAssertions")).click();
         $(".markdown-body").shouldHave(text("Using JUnit5 extend test class"));
     }
-
 }
